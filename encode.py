@@ -1,4 +1,4 @@
-from PIL import Image, ImageDraw
+from PIL import Image
 
 def split_byte_to_nums(text):
     num_list = []
