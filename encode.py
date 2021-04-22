@@ -33,7 +33,7 @@ def draw_bytes(byte_list):
             if(byte):
                 img.putpixel((x,y), 0)
             else:
-                img.putpixel((x,y), 1)
+                img.putpixel((x,y), 255)
             x += 1
         x = 0
         y += 1
